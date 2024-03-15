@@ -7,26 +7,24 @@ let sectionnn = document.querySelector('.footer')
 
 headerHamburger.addEventListener('click' , function(){
   sectionn.style.display = 'flex'
-  footerr.style.display = 'none'
   sectionnn.style.display = 'none'
 })
 
 sectionImg.addEventListener('click' , function(){
   sectionn.style.display = 'none'
-  footerr.style.display = 'flex'
   sectionnn.style.display = 'flex'
 })
 
 
-// let btn2 = document.querySelector('.card-earn')
-// let text = document.querySelector('.spannn')
-// let earn = document.querySelector('.card-earn')
+let btn2 = document.querySelector('.card-earn')
+let text = document.querySelector('.spannn')
+let earn = document.querySelector('.card-earn')
 
-// btn2.addEventListener('click', function (){
-//   text.textContent = text.textContent *1+0.003
-//   earn.classList.remove('reddd')
-//   earn.classList.add('redd')
-// })
+btn2.addEventListener('click', function (){
+  text.textContent = text.textContent *1+0.003
+  earn.classList.remove('reddd')
+  earn.classList.add('redd')
+})
 
 
 
