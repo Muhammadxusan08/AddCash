@@ -16,14 +16,13 @@ sectionImg.addEventListener('click' , function(){
 })
 
 
-let btn2 = document.querySelector('.card-earn')
+let btn21 = document.querySelector('.card-earn')
 let text = document.querySelector('.spannn')
 let earn = document.querySelector('.card-earn')
 
-btn2.addEventListener('click', function (){
-  text.textContent = text.textContent *1+0.003
-  earn.classList.remove('reddd')
-  earn.classList.add('redd')
+btn21.addEventListener('click', function (){
+  text.textContent = text.textContent *1+0.003 ;
+  NaN
 })
 
 
